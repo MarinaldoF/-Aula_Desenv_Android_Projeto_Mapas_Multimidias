@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="usandoWebView"
+        android:text="Usando WebView em seus Apps"
+        android:textSize="14dp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="acessarRecuperacaoFotos"
+        android:text="Recuperando fotos com ImageView"
+        android:textSize="14dp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="acessarVideo"
+        android:text="Videos: MediaPlayer"
+        android:textSize="14dp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="acessarSons"
+        android:text="Sons: AudioManager"
+        android:textSize="14dp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="acessarAnimacao"
+        android:text="Animação em views com View Animation"
+        android:textSize="14dp"
+        android:textAllCaps="false"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
